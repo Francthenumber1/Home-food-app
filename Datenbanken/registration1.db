@@ -1,0 +1,7 @@
+﻿"CREATE TABLE IF NOT EXISTS Registration (" +
+                     "Id INTEGER PRIMARY KEY AUTOINCREMENT, " +
+                     "Name TEXT NOT NULL, " +
+                     "Username TEXT NOT NULL, " +
+                     "Phone TEXT NOT NULL, " +
+                     "Email TEXT NOT NULL, " +
+                     "Password TEXT NOT NULL)";
