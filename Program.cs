@@ -16,7 +16,7 @@ namespace HomeFood
         {
             Application.EnableVisualStyles(); // steuerelemente nicht veraltet
             Application.SetCompatibleTextRenderingDefault(false);  // gut performance 
-            Application.Run(new MainRezeptForm());  //Run
+            Application.Run(new loginReal());  //Run
         }
     }
 }

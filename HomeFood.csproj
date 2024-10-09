@@ -140,106 +140,98 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="588286\AdminRezeptEditor.cs">
+    <Compile Include="the_forms\AdminRezeptEditor.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="588286\AdminRezeptEditor.Designer.cs">
+    <Compile Include="the_forms\AdminRezeptEditor.Designer.cs">
       <DependentUpon>AdminRezeptEditor.cs</DependentUpon>
     </Compile>
-    <Compile Include="588286\communication.cs">
+    <Compile Include="the_forms\Backform.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="588286\communication.Designer.cs">
+    <Compile Include="the_forms\Backform.Designer.cs">
+      <DependentUpon>Backform.cs</DependentUpon>
+    </Compile>
+    <Compile Include="the_forms\communication.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="the_forms\communication.Designer.cs">
       <DependentUpon>communication.cs</DependentUpon>
     </Compile>
-    <Compile Include="588286\LoginForm.cs">
+    <Compile Include="the_forms\message.cs" />
+    <Compile Include="the_forms\messagepart.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="588286\LoginForm.Designer.cs">
-      <DependentUpon>LoginForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="588286\message.cs" />
-    <Compile Include="588286\messagepart.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="588286\messagepart.Designer.cs">
+    <Compile Include="the_forms\messagepart.Designer.cs">
       <DependentUpon>messagepart.cs</DependentUpon>
     </Compile>
-    <Compile Include="BackForm.cs">
+    <Compile Include="the_forms\extensions\StringExtensions.cs" />
+    <Compile Include="the_forms\Rezeptsuchen_und_filtern.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="BackForm.Designer.cs">
-      <DependentUpon>BackForm.cs</DependentUpon>
+    <Compile Include="the_forms\Rezeptsuchen_und_filtern.Designer.cs">
+      <DependentUpon>Rezeptsuchen_und_filtern.cs</DependentUpon>
     </Compile>
-    <Compile Include="588286\extensions\StringExtensions.cs" />
-    <Compile Include="588286\rezeptsuchen_und_filtern.cs">
+    <Compile Include="benutzer.cs" />
+    <Compile Include="the_forms\loginReal.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="588286\rezeptsuchen_und_filtern.Designer.cs">
-      <DependentUpon>rezeptsuchen_und_filtern.cs</DependentUpon>
-    </Compile>
-    <Compile Include="loginReal.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="loginReal.Designer.cs">
+    <Compile Include="the_forms\loginReal.Designer.cs">
       <DependentUpon>loginReal.cs</DependentUpon>
     </Compile>
-    <Compile Include="MainRezeptForm.cs">
+    <Compile Include="the_forms\New_mainpage.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MainRezeptForm.Designer.cs">
-      <DependentUpon>MainRezeptForm.cs</DependentUpon>
+    <Compile Include="the_forms\New_mainpage.Designer.cs">
+      <DependentUpon>New_mainpage.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="588286\RezepteDAO.cs" />
-    <Compile Include="588286\Rezepten.cs" />
+    <Compile Include="the_forms\RezepteDAO.cs" />
+    <Compile Include="the_forms\Rezepten.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <Compile Include="tahsee_588737\Rezepte_hinzufügen.cs">
+    <Compile Include="the_forms\Rezepte_hinzufügen.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="tahsee_588737\Rezepte_hinzufügen.Designer.cs">
+    <Compile Include="the_forms\Rezepte_hinzufügen.Designer.cs">
       <DependentUpon>Rezepte_hinzufügen.cs</DependentUpon>
     </Compile>
-    <Compile Include="588286\zutat.cs" />
-    <EmbeddedResource Include="588286\AdminRezeptEditor.resx">
+    <Compile Include="the_forms\zutat.cs" />
+    <EmbeddedResource Include="the_forms\AdminRezeptEditor.resx">
       <DependentUpon>AdminRezeptEditor.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="588286\communication.resx">
+    <EmbeddedResource Include="the_forms\Backform.resx">
+      <DependentUpon>Backform.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="the_forms\communication.resx">
       <DependentUpon>communication.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="588286\LoginForm.resx">
-      <DependentUpon>LoginForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="588286\messagepart.resx">
+    <EmbeddedResource Include="the_forms\messagepart.resx">
       <DependentUpon>messagepart.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="BackForm.resx">
-      <DependentUpon>BackForm.cs</DependentUpon>
+    <EmbeddedResource Include="the_forms\Rezeptsuchen_und_filtern.resx">
+      <DependentUpon>Rezeptsuchen_und_filtern.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="588286\rezeptsuchen_und_filtern.resx">
-      <DependentUpon>rezeptsuchen_und_filtern.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="loginReal.resx">
+    <EmbeddedResource Include="the_forms\loginReal.resx">
       <DependentUpon>loginReal.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MainRezeptForm.resx">
-      <DependentUpon>MainRezeptForm.cs</DependentUpon>
+    <EmbeddedResource Include="the_forms\New_mainpage.resx">
+      <DependentUpon>New_mainpage.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="tahsee_588737\Rezepte_hinzufügen.resx">
+    <EmbeddedResource Include="the_forms\Rezepte_hinzufügen.resx">
       <DependentUpon>Rezepte_hinzufügen.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
-    <None Include="588286\DataSources\Rezepten.datasource" />
+    <None Include="the_forms\DataSources\Rezepten.datasource" />
     <None Include="Properties\DataSources\ChangeLog.datasource" />
     <None Include="Properties\DataSources\ChangeLog1.datasource" />
     <None Include="Properties\DataSources\Rezepten1.datasource" />
